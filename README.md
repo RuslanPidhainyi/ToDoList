@@ -5,6 +5,7 @@ The To-Do List simulator is created in ASP in MVS. The following functions have 
 
 ---
 This is what the home page of the "To Do List" looks like.
+
 ![Screenshot (1)](https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/bc7e957f-8355-436e-8d36-c593f36ccacf)
 
 
