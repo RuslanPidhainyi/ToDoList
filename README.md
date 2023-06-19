@@ -19,11 +19,22 @@ https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/84fa005c-a174-4aa2-
 https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/3b7b4270-2b74-4f5c-b79b-20376c7c8cec
 
 
-- the ability to delete tasks from the list
+- The ability to delete tasks from the list
 
 https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/68ab9fa7-78ae-448b-9e7e-5e4e7d43729f
 
+
+- Task search
+
+https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/7dd3820d-5a4a-46b2-ae91-338dbc4e51a8
+
+ 
 - deleting tasks from the list
+
+https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/396c0df0-2bea-4aa9-8209-26b77264141b
+
+
+
 
 
 
