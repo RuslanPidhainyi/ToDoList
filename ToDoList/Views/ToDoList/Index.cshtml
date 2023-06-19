@@ -1,0 +1,124 @@
+﻿@model List<ToDoList.Models.Table>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<style> 
+    .checked {
+            text-decoration: line-through;
+    }
+
+</style>        
+
+<div class="container">
+    <div class="header">
+
+
+        <div>
+            <h3>To Do List</h3>
+        </div>
+
+        <br />
+
+        
+
+    </div>
+
+    <p>
+        <a asp-controller="ToDoList" asp-action="Add" class="btn btn-primary btn-lg">Add new task</a>
+    </p>
+    <input id="searchbar" type="text" class="form-control" placeholder="Search content"/>
+    <table class="table table-bordered">
+
+        <thead>
+            <tr>
+                <th style="width:60%">Task</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>
+                        @e.Text
+                    </td>
+                    <td>
+                        <a asp-controller="ToDoList" asp-action="Edit" asp-route-id=@e.Id type="button" class="btn btn-warning">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-controller="ToDoList" asp-action="Delete" asp-route-id=@e.Id type="button" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        
+    </table>
+
+
+
+</div>
+
+
+
+@section scripts{
+    <script>
+
+        //This block code is resposible for done. 
+
+        const trs = document.getElementsByTagName("tr"); //take element "tr" ind find our words
+
+        for(let i = 0; i < trs.length; i++)
+        {
+            let tr = trs[i]; 
+            tr.addEventListener("click", function(e)
+            {
+                let td = e.target.closest("td");
+                if(td.classList.contains("checked"))
+                {
+                    td.classList.remove("checked");
+                }
+                else
+                {
+                    td.classList.add("checked");
+                }
+            })
+        }
+
+
+        //This block code is resposible for search task
+        let searchbar = document.getElementById("searchbar");
+        searchbar.addEventListener("keyup", filterNames);
+
+        function filterNames()
+        {
+            let filterValue = document.getElementById("searchbar").value.toUpperCase();
+            console.log(filterValue);
+
+            let task = document.getElementsByTagName("tr");
+
+            for (let i = 0; i < task.length; i++)
+            {
+                let a = task[i];
+
+                if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1)
+                {
+                    a.style.display = "";
+                }
+                else{
+                    a.style.display = "none";
+                }
+            }
+
+        }
+
+    </script>
+}
+    
+
+
