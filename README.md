@@ -8,11 +8,25 @@ The To-Do List simulator is created in ASP in MVS. The following functions have 
 
 ![Screenshot (1)](https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/bc7e957f-8355-436e-8d36-c593f36ccacf)
 
+
 - Adding new task
 
 https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/84fa005c-a174-4aa2-a4ea-1f36f92d1564
 
+
 - Editing task
 
 https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/3b7b4270-2b74-4f5c-b79b-20376c7c8cec
+
+
+- the ability to delete tasks from the list
+
+https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/68ab9fa7-78ae-448b-9e7e-5e4e7d43729f
+
+- deleting tasks from the list
+
+
+
+
+
 
