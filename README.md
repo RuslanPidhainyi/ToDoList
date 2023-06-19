@@ -1,9 +1,7 @@
 # ToDoList
 
 ----
-In this project, I used the condition if, else, try catch and  loop for.
-
-In the "ToDoList" project, the following functions have been added: adding tasks, editing tasks, removing tasks from the list and the ability to cross out a task (more precisely, completing tasks) and search task.
+The To-Do List simulator is created in ASP in MVS. The following functions have been added to the project: adding, editing, deleting tasks from the list and the ability to delete tasks from the list, and this simulator also contains a task search.
 
 ---
 Example: 
