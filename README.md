@@ -9,7 +9,8 @@ The To-Do List simulator is created in ASP in MVS. The following functions have 
 ![Screenshot (1)](https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/bc7e957f-8355-436e-8d36-c593f36ccacf)
 
 
-- Adding new tasks
+
+- Adding new task
 
 https://github.com/RuslanPidhainyi/ToDoList/assets/136593314/84fa005c-a174-4aa2-a4ea-1f36f92d1564
 
